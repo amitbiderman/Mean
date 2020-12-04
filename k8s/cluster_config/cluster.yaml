@@ -2,8 +2,8 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: mean-eks-demo #cluster name
-  region: eu-central-1 #desired region
+  name: mean-eks #cluster name
+  region: eu-west-3 #desired region
 
 nodeGroups:
   - name: ng-1 #cluster node group name
