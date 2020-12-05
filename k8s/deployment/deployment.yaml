@@ -2,11 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    name: mean-demo-deployment
     app.kubernetes.io/name: mean-demo
     app.kubernetes.io/instance: mean-demo-instance
     app.kubernetes.io/version: '1.0.0'
     app.kubernetes.io/managed-by: kubectl
+  name: mean-demo-deployment
 spec:
   replicas: 1
   selector:
